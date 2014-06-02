@@ -1,0 +1,39 @@
+{
+  "name": "seneca-mssql-store",
+  "version": "0.0.1",
+  "description": "Seneca data store plugin for MSSQL",
+  "main": "lib/postgresql-store.js",
+  "author": {
+    "name": "Cristian Ianto"
+  },
+  "contributors": [
+  ],
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nearform/seneca-mssql-store.git"
+  },
+  "keywords": [
+    "seneca",
+    "plugin",
+    "store",
+    "mssql",
+    "tds"
+  ],
+  "scripts": {
+    "test": "node_modules/.bin/mocha test --reporter spec"
+  },
+  "dependencies": {
+    "seneca": "0.5.x",
+    "mssql": "0.5.3",
+    "underscore": "1.4.x",
+    "async": "0.1.x",
+    "node-uuid": "1.4.x"
+  },
+  "devDependencies": {
+    "mocha": "1.9.x",
+    "chai": "1.5.x",
+    "seneca-store-test": "0.1.0"
+  }
+}
